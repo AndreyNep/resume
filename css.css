@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+
+body {
+    font-family: 'Gentium+Book+Plus', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 800px;
+    background: #ffd;
+    color: #0f141e;
+}
+.glav {
+    color: dimgrey;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(210, 30, 30);
+    
+
+}
+
+.stil {
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.res {
+    background: white;
+    margin-left: 20px;
+}
+.uvl {
+    background: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 10px;
+}
+.uvl h1 {
+    color: blueviolet;
+}
+
+.res h1 {
+    color: darkgreen;
+}
+.opyt {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.svyaz {
+    background: cornflowerblue;
+}
+.svyaz h1 {
+    color: white;
+}
+.foto {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.container {
+    /* width: 800px; */
+    margin: auto;
+}
+.knopka {
+    background: darkblue;
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: inherit;
+}
+.knopka:hover {
+    opacity: .6;
+    color: coral;
+
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+}
+/* a:visited {
+    color: brown;
+} */
+a:active {
+    color: chocolate;
+}
+.table {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.table td, th {
+    text-align: center;
+    padding-bottom: 12px;
+}
+.table td:hover {
+    background: darkorchid;
+}
+.stroka tr:nth-child(odd) {
+    background: #aaa;
+}
+tr {
+    border: 3px;
+    border-style: solid;
+    border-color: #000;
+}
+.kontakt {
+    padding-bottom: 10px;
+}
+.kontakt h1 {
+    color: rebeccapurple;
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+.svyaz {
+    text-align: center;
+}
+.form-new {
+    margin-bottom: 5px;
+    display: flex;
+}
+.form-new .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 33%;
+    /* width: calc(33%-20px); */
+}
+.form-new .form-group:last-child {
+    margin-right: 0;
+}
+@media (max-width: 773px) {
+    .form-new {
+        display: block;
+    }
+    .form-new .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 0 10px 10px;
+}
+@media (max-width: 773px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
